@@ -1,4 +1,6 @@
-// Java Program to create a  
+package com.jtrent238.food_choice;
+
+// Java Program to create a
 // blank label and add text to it. 
 import java.awt.event.*; 
 import java.awt.*; 
@@ -8,6 +10,18 @@ class food_choice extends JFrame {
     // frame 
     static JFrame frame1; 
   
+		//Sets the names for the items
+		string name1 = "Pizza";
+		string name2 = "Chicken Fingers";
+		string name3 = "Cheeseburger";
+		string name4 = "Hot Dog";
+
+		//Sets the prices for the items
+		string cost1 = "4.99";
+		string cost2 = "6.99";
+		string cost3 = "5.99";
+		string cost4 = "3.99";
+
 		static JLabel label1; 
 		static JLabel label2; 
 		static JLabel label3; 
@@ -15,8 +29,17 @@ class food_choice extends JFrame {
 		static JLabel label5; 
 		static JLabel label6; 
 		static JLabel label7;
+		static JLabel label8;
+		static JLabel label9;
 		
-		static JTextArea textarea1;
+		static JTextField textfield1;
+		
+		static JButton button1;
+		static JButton button2;
+		static JButton button3;
+		static JButton button4;
+		
+		static JSeparator seperator1;
 		
     // default constructor 
     food_choice() 
@@ -37,10 +60,22 @@ class food_choice extends JFrame {
 		label5 = new JLabel();
 		label6 = new JLabel();
 		label7 = new JLabel();
+		label8 = new JLabel();
+		label9 = new JLabel();
   
 		//create box for the input
-		textarea1 = new JTextArea(5, 20);
-		textarea1.setEditable(true);
+		textfield1 = new JTextField();
+		textfield1.setPreferredSize(new Dimension(15, 20));
+		textfield1.setEditable(true);
+		
+		// create button to click 
+		button1 = new JButton();
+		button2 = new JButton();
+		button3 = new JButton();
+		button4 = new JButton();
+		
+		// create seperator
+		seperator1 = new JSeparator();
 		
         // add text to labels
         label1.setText("==============Menu=============="); 
@@ -51,6 +86,12 @@ class food_choice extends JFrame {
 		label6.setText("================================"); 
 		
 		label7.setText("Enter number 1 - 4.");
+		label8.setText("Click a Number: ");
+		
+		button1.setText("1");
+		button2.setText("2");
+		button3.setText("3");
+		button4.setText("4");
 		
         // create a panel 
         JPanel panel1 = new JPanel(); 
@@ -62,9 +103,20 @@ class food_choice extends JFrame {
         panel1.add(label4); 
         panel1.add(label5); 
         panel1.add(label6); 
-		
+        panel1.add(label9); 
+
 		// add text area to panel
-		frame1.add(textarea1);
+		//panel1.add(textfield1);
+		
+		// add a seperator
+		panel1.add(seperator1);
+		panel1.add(label8);
+		
+		// add button to panel
+		panel1.add(button1);
+		panel1.add(button2);
+		panel1.add(button3);
+		panel1.add(button4);
 		
         // add panel to frame 
         frame1.add(panel1); 
@@ -74,4 +126,14 @@ class food_choice extends JFrame {
   
         frame1.show(); 
     } 
+	
+	public void actionPerformed(ActionEvent event) {
+		Object source = event.getSource();
+		if(source instanceof button1){
+			System.out.println("You clicked a button!");
+			buttonPressed = 1;
+		}
+	}
+	
+
 } 
