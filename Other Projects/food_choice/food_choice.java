@@ -11,16 +11,16 @@ class food_choice extends JFrame {
     static JFrame frame1; 
   
 		//Sets the names for the items
-		string name1 = "Pizza";
-		string name2 = "Chicken Fingers";
-		string name3 = "Cheeseburger";
-		string name4 = "Hot Dog";
+		public String name1 = "Pizza";
+		public String name2 = "Chicken Fingers";
+		public String name3 = "Cheeseburger";
+		public String name4 = "Hot Dog";
 
 		//Sets the prices for the items
-		string cost1 = "4.99";
-		string cost2 = "6.99";
-		string cost3 = "5.99";
-		string cost4 = "3.99";
+		public String cost1 = "4.99";
+		public String cost2 = "6.99";
+		public String cost3 = "5.99";
+		public String cost4 = "3.99";
 
 		static JLabel label1; 
 		static JLabel label2; 
@@ -40,6 +40,8 @@ class food_choice extends JFrame {
 		static JButton button4;
 		
 		static JSeparator seperator1;
+		
+		int buttonPressed;
 		
     // default constructor 
     food_choice() 
@@ -67,7 +69,7 @@ class food_choice extends JFrame {
 		textfield1 = new JTextField();
 		textfield1.setPreferredSize(new Dimension(15, 20));
 		textfield1.setEditable(true);
-		
+
 		// create button to click 
 		button1 = new JButton();
 		button2 = new JButton();
@@ -126,14 +128,72 @@ class food_choice extends JFrame {
   
         frame1.show(); 
     } 
-	
+			
 	public void actionPerformed(ActionEvent event) {
+		
+		button1.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+				   actionPerformed(evt);
+			}
+		});
+		
+		button2.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+				   actionPerformed(evt);
+			}
+		});
+		
+		button3.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+				   actionPerformed(evt);
+			}
+		});
+		
+		button4.addActionListener(new java.awt.event.ActionListener() {
+			public void actionPerformed(java.awt.event.ActionEvent evt) {
+				   actionPerformed(evt);
+			}
+		});
+		
 		Object source = event.getSource();
 		if(source instanceof button1){
 			System.out.println("You clicked a button!");
 			buttonPressed = 1;
 		}
-	}
-	
+		if(source instanceof button2){
+			System.out.println("You clicked a button!");
+			buttonPressed = 2;
+		}
+		if(source instanceof button3){
+			System.out.println("You clicked a button!");
+			buttonPressed = 3;
+		}
+		if(source instanceof button4){
+			System.out.println("You clicked a button!");
+			buttonPressed = 4;
+		}
 
+				switch(buttonPressed){
+			case 1:
+				//pizza
+				System.out.println("Your " + name1 + " will be ready soon! \n With a price of " + cost1);
+				break;
+			case 2:
+				//chicken fingers
+				System.out.println("Your " + name2 + " will be ready soon! \n With a price of " + cost2);
+				break;
+			case 3:
+				//cheeseburger
+				System.out.println("Your " + name3 + " will be ready soon! \n With a price of " + cost3);
+				break;
+			case 4:
+				//hot dog
+				System.out.println("Your " + name4 + " will be ready soon! \n With a price of " + cost4);
+				break;
+			default:
+				//error
+				System.out.println("You clicked an invalid number!");
+				break;
+	}
+	}
 } 
