@@ -16,23 +16,6 @@
       raptor_prompt_variable_zzyz = "Enter PowerPoint Score: "
       scorePowerPoint = InputBox(raptor_prompt_variable_zzyz)
       score = (scoreWord + scoreExcel + scorePowerPoint) / 3
-      If score >= 90 Then
-         grade = "A"
-      Else
-         If score >= 80 Then
-            grade = "B"
-         Else
-            If score >= 70 Then
-               grade = "C"
-            Else
-               If score >= 60 Then
-                  grade = "D"
-               Else
-                  grade = "F"
-               End If
-            End If
-         End If
-      End If
       If score >= 70 Then
          MsgBox "Congratulations, you passed the exemption exam with a(n): " + score + " " + grade
       Else

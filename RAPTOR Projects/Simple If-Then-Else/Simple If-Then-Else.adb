@@ -16,23 +16,6 @@ begin
    Put_Line(raptor_prompt_variable_zzyz);
    Get(scorePowerPoint);
    score :=(scoreWord+scoreExcel+scorePowerPoint)/3;
-   if score>=90 then 
-      grade :="A";
-   else
-      if score>=80 then 
-         grade :="B";
-      else
-         if score>=70 then 
-            grade :="C";
-         else
-            if score>=60 then 
-               grade :="D";
-            else
-               grade :="F";
-            end if;
-         end if;
-      end if;
-   end if;
    if score>=70 then 
       Put_Line("Congratulations, you passed the exemption exam with a(n): "+score+" "+grade);
    else

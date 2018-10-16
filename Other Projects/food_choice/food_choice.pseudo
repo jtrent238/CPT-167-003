@@ -1,0 +1,29 @@
+Get order
+
+Switch(order)
+
+	Case 1:
+		name = "Pizza"
+		price = "$4.99"
+			break;
+			
+	Case 2:
+		name = "Chicken Fingers"
+		price = "$6.99"
+			break;
+			
+	Case 3:
+		name = "Cheeseburger"
+		price = "$5.99"
+			break;
+			
+	Case 4:
+		name = "Hot Dog"
+		price = "$3.99"
+			break;
+			
+	default:
+		name = "You have entered an Invalid number!"
+		price = "null" 
+		
+Print "Your " + order.name + " will be ready soon. Meal cost: " + order.price
