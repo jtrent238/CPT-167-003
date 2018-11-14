@@ -1,0 +1,793 @@
+test
+----Run complete.  58 symbols evaluated.----
+Variable CASEMIN not found!
+----Error, run halted----
+test
+----Run complete.  58 symbols evaluated.----
+Variable MAXNUM not found!
+----Error, run halted----
+7.3065
+1.5859
+2.5321
+4.3736
+6.1204
+9.5858
+9.7360
+8.1083
+1.2642
+5.1421
+test
+----Run complete.  70 symbols evaluated.----
+5.6337
+4.5859
+2.4728
+4.4231
+3.4347
+3.7687
+6.7302
+1.2207
+6.0640
+9.5899
+test
+----Run complete.  80 symbols evaluated.----
+8
+6
+4
+1
+8
+9
+3
+7
+5
+4
+test
+----Run complete.  80 symbols evaluated.----
+8
+6
+1
+test
+----Run complete.  31 symbols evaluated.----
+1
+8
+4
+test
+----Run complete.  34 symbols evaluated.----
+8
+7
+5
+test
+----Run complete.  34 symbols evaluated.----
+6
+8
+5
+test
+----Run complete.  34 symbols evaluated.----
+2
+2
+9
+test
+----Run complete.  34 symbols evaluated.----
+4
+4
+6
+test
+----Run complete.  34 symbols evaluated.----
+4
+2
+1
+test
+----Run complete.  34 symbols evaluated.----
+2
+6
+3
+test
+----Run complete.  34 symbols evaluated.----
+7
+1
+7
+test
+----Run complete.  34 symbols evaluated.----
+2
+6
+6
+test
+----Run complete.  34 symbols evaluated.----
+7
+3
+3
+test
+----Run complete.  34 symbols evaluated.----
+6
+6
+9
+test
+----Run complete.  34 symbols evaluated.----
+4
+2
+5
+test
+----Run complete.  34 symbols evaluated.----
+9
+4
+9
+test
+----Run complete.  34 symbols evaluated.----
+5
+9
+2
+test
+----Run complete.  34 symbols evaluated.----
+4
+4
+2
+test
+----Run complete.  34 symbols evaluated.----
+2
+4
+5
+test
+----Run complete.  34 symbols evaluated.----
+7
+3
+4
+test
+----Run complete.  34 symbols evaluated.----
+4
+6
+9
+test
+----Run complete.  34 symbols evaluated.----
+8
+3
+7
+test
+----Run complete.  34 symbols evaluated.----
+6
+7
+1
+test
+----Run complete.  34 symbols evaluated.----
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+----Reset----
+8
+8
+3
+test
+----Run complete.  34 symbols evaluated.----
+4
+6
+2
+test
+----Run complete.  34 symbols evaluated.----
+9
+3
+4
+test
+----Run complete.  34 symbols evaluated.----
+6
+6
+6
+test
+----Run complete.  34 symbols evaluated.----
+3
+7
+8
+test
+----Run complete.  34 symbols evaluated.----
+4
+8
+7
+test
+----Run complete.  34 symbols evaluated.----
+7
+4
+5
+test
+----Run complete.  34 symbols evaluated.----
+6
+5
+1
+test
+----Run complete.  34 symbols evaluated.----
+2
+7
+3
+test
+----Run complete.  34 symbols evaluated.----
+4
+3
+8
+test
+----Run complete.  34 symbols evaluated.----
+3
+3
+1
+test
+----Run complete.  34 symbols evaluated.----
+7
+2
+9
+test
+----Run complete.  34 symbols evaluated.----
+6
+1
+6
+test
+----Run complete.  34 symbols evaluated.----
+2
+6
+9
+test
+----Run complete.  34 symbols evaluated.----
+4
+6
+5
+test
+----Run complete.  34 symbols evaluated.----
+7
+7
+6
+test
+----Run complete.  34 symbols evaluated.----
+9
+7
+2
+test
+----Run complete.  34 symbols evaluated.----
+3
+4
+4
+test
+----Run complete.  34 symbols evaluated.----
+5
+3
+3
+test
+----Run complete.  34 symbols evaluated.----
+2
+2
+9
+test
+----Run complete.  34 symbols evaluated.----
+9
+6
+1
+test
+----Run complete.  34 symbols evaluated.----
+6
+3
+4
+test
+----Run complete.  34 symbols evaluated.----
+5
+6
+6
+test
+----Run complete.  34 symbols evaluated.----
+9
+8
+8
+test
+----Run complete.  34 symbols evaluated.----
+1
+5
+8
+test
+----Run complete.  34 symbols evaluated.----
+5
+2
+9
+test
+----Run complete.  34 symbols evaluated.----
+6
+5
+1
+test
+----Run complete.  34 symbols evaluated.----
+6
+4
+5
+test
+----Run complete.  34 symbols evaluated.----
+6
+1
+8
+test
+----Run complete.  34 symbols evaluated.----
+7
+2
+8
+test
+----Run complete.  34 symbols evaluated.----
+6
+4
+8
+test
+----Run complete.  34 symbols evaluated.----
+7
+3
+9
+test
+----Run complete.  34 symbols evaluated.----
+9
+8
+4
+test
+----Run complete.  34 symbols evaluated.----
+2
+3
+1
+test
+----Run complete.  34 symbols evaluated.----
+1
+1
+9
+test
+----Run complete.  34 symbols evaluated.----
+4
+2
+8
+test
+----Run complete.  34 symbols evaluated.----
+6
+9
+1
+test
+----Run complete.  34 symbols evaluated.----
+4
+6
+6
+test
+----Run complete.  34 symbols evaluated.----
+8
+3
+3
+test
+----Run complete.  34 symbols evaluated.----
+5
+1
+3
+test
+----Run complete.  34 symbols evaluated.----
+5
+7
+4
+test
+----Run complete.  34 symbols evaluated.----
+7
+3
+4
+test
+----Run complete.  34 symbols evaluated.----
+9
+3
+3
+test
+----Run complete.  34 symbols evaluated.----
+8
+6
+4
+test
+----Run complete.  34 symbols evaluated.----
+5
+4
+3
+test
+----Run complete.  34 symbols evaluated.----
+9
+6
+4
+test
+----Run complete.  34 symbols evaluated.----
+6
+2
+8
+test
+----Run complete.  34 symbols evaluated.----
+1
+2
+3
+test
+----Run complete.  34 symbols evaluated.----
+8
+3
+8
+test
+----Run complete.  34 symbols evaluated.----
+2
+8
+9
+test
+----Run complete.  34 symbols evaluated.----
+7
+5
+7
+test
+----Run complete.  34 symbols evaluated.----
+1
+6
+5
+test
+----Run complete.  34 symbols evaluated.----
+7
+4
+7
+test
+----Run complete.  34 symbols evaluated.----
+5
+4
+8
+test
+----Run complete.  34 symbols evaluated.----
+5
+7
+4
+test
+----Run complete.  34 symbols evaluated.----
+7
+8
+2
+test
+----Run complete.  34 symbols evaluated.----
+4
+9
+7
+test
+----Run complete.  34 symbols evaluated.----
+9
+9
+8
+test
+----Run complete.  34 symbols evaluated.----
+4
+5
+6
+test
+----Run complete.  34 symbols evaluated.----
+1
+8
+1
+test
+----Run complete.  34 symbols evaluated.----
+5
+8
+5
+test
+----Run complete.  34 symbols evaluated.----
+3
+2
+2
+test
+----Run complete.  34 symbols evaluated.----
+6
+4
+8
+test
+----Run complete.  34 symbols evaluated.----
+7
+3
+2
+test
+----Run complete.  34 symbols evaluated.----
+6
+1
+8
+test
+----Run complete.  34 symbols evaluated.----
+1
+5
+5
+test
+----Run complete.  34 symbols evaluated.----
+9
+1
+4
+test
+----Run complete.  34 symbols evaluated.----
+7
+8
+9
+test
+----Run complete.  34 symbols evaluated.----
+3
+8
+5
+test
+----Run complete.  34 symbols evaluated.----
+8
+7
+2
+test
+----Run complete.  34 symbols evaluated.----
+9
+6
+5
+test
+----Run complete.  34 symbols evaluated.----
+7
+9
+6
+test
+----Run complete.  34 symbols evaluated.----
+4
+3
+6
+test
+----Run complete.  34 symbols evaluated.----
+2
+dishmain is not a one-dimensional array
+----Error, run halted----
+Variable RANDNUM2 not found!
+----Error, run halted----
+Variable RANDNUM not found!
+----Error, run halted----
+can't use 0 as an array index
+----Error, run halted----
+Invalid assignment to array DISHMAIN -- missing index (e.g. DISHMAIN[3]).
+----Error, run halted----
+Invalid assignment to array DISHMAIN -- missing index (e.g. DISHMAIN[3]).
+----Error, run halted----
+1
+Dish: testMain9
+DISHSTARCH not found.
+----Error, run halted----
+Variable DISHSTARCH_COUNT not found!
+----Error, run halted----
+4
+DISHMAIN doesn't have 4 elements.
+----Error, run halted----
+4
+DISHMAIN doesn't have 4 elements.
+----Error, run halted----
+6
+DISHMAIN doesn't have 6 elements.
+----Error, run halted----
+6
+DISHMAIN doesn't have 6 elements.
+----Error, run halted----
+5
+DISHMAIN doesn't have 5 elements.
+----Error, run halted----
+3
+DISHMAIN doesn't have 3 elements.
+----Error, run halted----
+8
+DISHMAIN doesn't have 8 elements.
+----Error, run halted----
