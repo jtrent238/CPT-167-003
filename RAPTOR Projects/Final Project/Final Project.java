@@ -28,6 +28,7 @@ public class Final Project extends eecs.Gui
       ??[] dishStarch = new ??[??];
       ??[] dishGreen = new ??[??];
       
+      printLine("Colors: " + red + black + blue + green + brown + yellow + purple + pink + white);
       i0 = 0;
       i1 = 0;
       i2 = 0;
